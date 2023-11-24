@@ -1,0 +1,7 @@
+version: "3.3"
+services:
+  unified-planning:
+    build: .
+    ports:
+      - "8002:8061"
+      - "8003:8062"
