@@ -10,15 +10,11 @@ import os
 
 
 import asyncio
-from functools import partial
-import sys
-import logging
-import justpy as jp
 
 from up_graphene_engine.engine import GrapheneEngine
 
 
-from gui import Gui, Mode, reload_page
+from gui import Gui, reload_page
 from modified_planning import planning
 from threading import Thread
 
